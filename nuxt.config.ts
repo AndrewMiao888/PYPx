@@ -9,7 +9,7 @@ export default defineNuxtConfig({
   },
   app: {
     head: {
-      title: 'The Journey of Microplastics · Adelaide PYP Exhibition',
+      title: 'The Journey of Microplastics - Adelaide PYP Exhibition',
       titleTemplate: '%s',
       meta: [
         { name: 'description', content: 'An Adelaide Year 5 exhibition exploring how sunlight and time turn plastic litter into tiny fragments.' },
