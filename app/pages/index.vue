@@ -195,7 +195,7 @@ function acknowledgeCookieNotice() {
         </details>
         <button type="button" class="self-start text-[10px] font-semibold text-[#c2d4cc] underline decoration-white/30 underline-offset-2 hover:text-[#d4e66d] sm:ml-auto sm:self-end" @click="cookieNoticeOpen = true">Cookie notice</button>
       </div>
-      <div class="section-shell mt-6 flex justify-between border-t border-white/10 pt-4 text-[9px] font-medium tracking-[0.1em] text-[#8fa99c]"><span>LEARN · NOTICE · CARE</span><span>Made for a more thoughtful future</span></div>
+      <div class="section-shell mt-6 flex flex-col gap-2 border-t border-white/10 pt-4 text-[9px] font-medium tracking-[0.1em] text-[#8fa99c] sm:flex-row sm:items-center sm:justify-between"><span>LEARN · NOTICE · CARE</span><span>Created by Andrew Miao from SynQuara Digital</span></div>
     </footer>
 
     <CookieConsent v-if="cookieNoticeOpen" @acknowledge="acknowledgeCookieNotice" />
